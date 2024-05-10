@@ -43,8 +43,14 @@ public abstract class Vehiculo {
         this.radio=new Radio(marcaRadio, potencia);
     }
 
-    public abstract void agregarRadio(String marcaRadio, int potencia);
+    public void agregarRadio(String marcaRadio, int potencia){
+        this.radio=new Radio(marcaRadio, potencia);
+        System.out.println("Se agregó una radio al vehiculo!");
+    }
 
-    public abstract void cambiarRadio(String marcaRadio, int potencia);
+    public void cambiarRadio(String marcaRadio, int potencia){
+        this.radio=new Radio(marcaRadio, potencia);
+        System.out.println("Se cambió la radio del vehiculo!");
+    }
 
 }

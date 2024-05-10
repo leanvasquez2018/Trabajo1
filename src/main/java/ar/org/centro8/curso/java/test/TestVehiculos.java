@@ -19,12 +19,12 @@ public class TestVehiculos {
         System.out.println(autoclasico2);
 
         System.out.println("-- autonuevo1 --");
-        AutoNuevo autonuevo1=new AutoNuevo("Negro", "Chevrolet", "Corvette", null, "Garmin", 25);
+        AutoNuevo autonuevo1=new AutoNuevo("Negro", "Chevrolet", "Corvette", "Garmin", 25);
         autonuevo1.cambiarRadio("Nakamichi", 80);
         System.out.println(autonuevo1);
 
         System.out.println("-- autonuevo2 --");
-        AutoNuevo autonuevo2=new AutoNuevo("Azul", "Toyota", "Innova", 500000, null, "Pioneer", 50);
+        AutoNuevo autonuevo2=new AutoNuevo("Azul", "Toyota", "Innova", 500000, "Pioneer", 50);
         autonuevo2.cambiarRadio("Omnitek", 100);
         System.out.println(autonuevo2);
 
